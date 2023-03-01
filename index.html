@@ -2,20 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>Temperature Hot</title>
-    <!-- Required meta tags -->
+    <title>Weather API</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
-        body {
-            background: url(images/bg-image.jpg) no-repeat;
-            background-size: cover;
-            height: 100vh;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -28,9 +20,10 @@
                 </div>
             </div>
         </form>
+
         <div class="weather-status text-white text-center">
             <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
-            <h1>Dhaka</h1>
+            <h1 id="city-name">Dhaka</h1>
             <h3><span>38.06</span>&deg;C</h3>
             <h1 class="lead">Clouds</h1>
         </div>
